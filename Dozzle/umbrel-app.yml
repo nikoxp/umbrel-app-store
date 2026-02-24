@@ -1,0 +1,21 @@
+manifestVersion: "1"
+id: dozzle               # 必须唯一，小写+连字符
+category: docker                # 可选：files, media, utilities 等
+name: dozzle
+version: "10.0.0"
+tagline: docker管理
+description: docker管理
+developer: dozzle
+website: https://github.com/amir20/dozzle
+dependencies: []
+repo: https://github.com/amir20/dozzle  # 可选
+support: https://github.com/amir20/dozzle
+port: 8080                     # 最重要的！前端显示的端口
+gallery:
+  - 1.jpg
+  - 2.jpg
+path: ""
+defaultUsername: ""
+defaultPassword: ""
+torOnly: false
+releaseNotes: 更新日志...
